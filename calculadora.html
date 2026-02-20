@@ -88,16 +88,14 @@
 <body>
 	<div class="container">
 		<h1>Calculadora de Aposentadoria</h1>
-		<form id="calcForm">
-			<label for="idade">Idade</label>
-			<input type="number" id="idade" min="18" max="99" required>
-			<label for="salario">Salário mensal (R$)</label>
-			<input type="number" id="salario" min="0" required>
-			<label for="gastos">Gastos mensais (R$)</label>
-			<input type="number" id="gastos" min="0" required>
-			<label for="investimento">Investimento mensal (R$)</label>
-			<input type="number" id="investimento" min="0" required>
-			<button type="submit">Calcular</button>
+		<form id="simForm">
+			<label for="aporte">Aporte mensal (R$)</label>
+			<input type="number" id="aporte" min="0" required>
+			<label for="taxa">Taxa de juros anual (%)</label>
+			<input type="number" id="taxa" min="0" max="100" step="0.01" required>
+			<label for="tempo">Tempo (anos)</label>
+			<input type="number" id="tempo" min="1" max="80" required>
+			<button type="submit">Simular</button>
 		</form>
 		<div class="result" id="result"></div>
 		<div class="chart-area">
@@ -105,163 +103,186 @@
 		</div>
 		<div class="compare">
 			<span>Comparar cenários:</span><br>
-			<input type="number" id="investimento2" placeholder="Investimento 2">
-			<input type="number" id="gastos2" placeholder="Gastos 2">
+			<input type="number" id="aporte2" placeholder="Aporte 2">
+			<input type="number" id="taxa2" placeholder="Taxa 2 (%)">
+			<input type="number" id="tempo2" placeholder="Tempo 2 (anos)">
 			<button id="compareBtn">Comparar</button>
+		</div>
+		<div class="scenarios">
+			<span>Simular estratégias:</span><br>
+			<button id="conservadorBtn">Conservador</button>
+			<button id="moderadoBtn">Moderado</button>
+			<button id="agressivoBtn">Agressivo</button>
+		</div>
+		<div class="evolucao">
+			<span>Evolução mês a mês:</span>
+			<table id="tabelaEvolucao" style="width:100%;margin-top:12px;background:#2c2f31;border-radius:8px;color:#f5f6fa;font-size:0.95rem;">
+				<thead>
+					<tr><th>Mês</th><th>Patrimônio (R$)</th></tr>
+				</thead>
+				<tbody></tbody>
+			</table>
 		</div>
 	</div>
 	<script>
-		// Parâmetros financeiros
-		const taxaRendimento = 0.07; // 7% ao ano
-		const taxaInflacao = 0.04; // 4% ao ano
-		const taxaRetirada = 0.04; // 4% de retirada segura
-
-		const form = document.getElementById('calcForm');
-		const resultDiv = document.getElementById('result');
-		const ctx = document.getElementById('patrimonioChart').getContext('2d');
-		const compareBtn = document.getElementById('compareBtn');
-
-		let chart;
-
-		function calcularAposentadoria(idade, salario, gastos, investimento, investimento2=null, gastos2=null) {
-			// Parâmetros
-			let patrimonio = 0;
-			let patrimonio2 = investimento2 !== null ? 0 : null;
-			let anos = 0;
-			let anos2 = investimento2 !== null ? 0 : null;
-			let historico = [];
-			let historico2 = [];
-			let idadeAtual = idade;
-			let idadeAtual2 = idade;
-			// Meta: patrimônio suficiente para cobrir gastos com retirada segura
-			let meta = gastos * 12 / taxaRetirada;
-			let meta2 = gastos2 !== null ? gastos2 * 12 / taxaRetirada : null;
-			// Simulação principal
-			while (patrimonio < meta && anos < 80) {
-				patrimonio += investimento;
-				patrimonio *= (1 + taxaRendimento - taxaInflacao);
-				historico.push({ ano: anos, idade: idadeAtual, patrimonio });
-				anos++;
-				idadeAtual++;
-			}
-			// Simulação cenário 2
-			if (investimento2 !== null && gastos2 !== null) {
-				while (patrimonio2 < meta2 && anos2 < 80) {
-					patrimonio2 += investimento2;
-					patrimonio2 *= (1 + taxaRendimento - taxaInflacao);
-					historico2.push({ ano: anos2, idade: idadeAtual2, patrimonio: patrimonio2 });
-					anos2++;
-					idadeAtual2++;
-				}
-			}
-			return {
-				anos,
-				idadeAposentadoria: idade + anos,
-				patrimonioFinal: patrimonio,
-				historico,
-				anos2,
-				idadeAposentadoria2: idade + anos2,
-				patrimonioFinal2: patrimonio2,
-				historico2
-			};
+	// Modular: funções de simulação
+	function simularInvestimento(aporte, taxaAnual, tempoAnos) {
+		let patrimonio = 0;
+		let historico = [];
+		let taxaMensal = Math.pow(1 + taxaAnual / 100, 1/12) - 1;
+		let meses = tempoAnos * 12;
+		for (let m = 1; m <= meses; m++) {
+			patrimonio += aporte;
+			patrimonio *= (1 + taxaMensal);
+			historico.push({ mes: m, patrimonio });
 		}
+		return { patrimonioFinal: patrimonio, historico };
+	}
 
-		function renderChart(historico, historico2=null) {
-			const labels = historico.map(h => h.idade);
-			const data = historico.map(h => h.patrimonio);
-			let datasets = [
-				{
-					label: 'Patrimônio (cenário 1)',
-					data,
-					borderColor: '#4ecca3',
-					backgroundColor: 'rgba(78,204,163,0.1)',
-					tension: 0.2,
-				}
-			];
-			if (historico2) {
-				datasets.push({
-					label: 'Patrimônio (cenário 2)',
-					data: historico2.map(h => h.patrimonio),
-					borderColor: '#f5f6fa',
-					backgroundColor: 'rgba(245,246,250,0.1)',
-					tension: 0.2,
-				});
+	function simularComparacao(aporte1, taxa1, tempo1, aporte2, taxa2, tempo2) {
+		const sim1 = simularInvestimento(aporte1, taxa1, tempo1);
+		const sim2 = simularInvestimento(aporte2, taxa2, tempo2);
+		return {
+			patrimonioFinal1: sim1.patrimonioFinal,
+			historico1: sim1.historico,
+			patrimonioFinal2: sim2.patrimonioFinal,
+			historico2: sim2.historico,
+			diferenca: sim2.patrimonioFinal - sim1.patrimonioFinal
+		};
+	}
+
+	function renderChart(historico1, historico2 = null) {
+		const labels = historico1.map(h => h.mes);
+		const data1 = historico1.map(h => h.patrimonio);
+		let datasets = [
+			{
+				label: 'Cenário 1',
+				data: data1,
+				borderColor: '#4ecca3',
+				backgroundColor: 'rgba(78,204,163,0.1)',
+				tension: 0.2,
 			}
-			if (chart) chart.destroy();
-			chart = new Chart(ctx, {
-				type: 'line',
-				data: {
-					labels,
-					datasets
-				},
-				options: {
-					plugins: {
-						legend: {
-							labels: {
-								color: '#f5f6fa',
-								font: { weight: 'bold' }
-							}
-						}
-					},
-					scales: {
-						x: {
-							ticks: { color: '#f5f6fa' },
-							grid: { color: '#232526' }
-						},
-						y: {
-							ticks: { color: '#f5f6fa' },
-							grid: { color: '#232526' }
-						}
-					}
-				}
+		];
+		if (historico2) {
+			datasets.push({
+				label: 'Cenário 2',
+				data: historico2.map(h => h.patrimonio),
+				borderColor: '#f5f6fa',
+				backgroundColor: 'rgba(245,246,250,0.1)',
+				tension: 0.2,
 			});
 		}
-
-		function salvarDadosLocal(idade, salario, gastos, investimento) {
-			localStorage.setItem('calcAposentadoria', JSON.stringify({ idade, salario, gastos, investimento }));
-		}
-
-		function carregarDadosLocal() {
-			const dados = localStorage.getItem('calcAposentadoria');
-			if (dados) {
-				const { idade, salario, gastos, investimento } = JSON.parse(dados);
-				document.getElementById('idade').value = idade;
-				document.getElementById('salario').value = salario;
-				document.getElementById('gastos').value = gastos;
-				document.getElementById('investimento').value = investimento;
+		if (window.chart) window.chart.destroy();
+		window.chart = new Chart(document.getElementById('patrimonioChart').getContext('2d'), {
+			type: 'line',
+			data: { labels, datasets },
+			options: {
+				plugins: {
+					legend: {
+						labels: {
+							color: '#f5f6fa',
+							font: { weight: 'bold' }
+						}
+					}
+				},
+				scales: {
+					x: {
+						ticks: { color: '#f5f6fa' },
+						grid: { color: '#232526' },
+						title: { display: true, text: 'Meses', color: '#f5f6fa' }
+					},
+					y: {
+						ticks: { color: '#f5f6fa' },
+						grid: { color: '#232526' },
+						title: { display: true, text: 'Patrimônio (R$)', color: '#f5f6fa' }
+					}
+				}
 			}
+		});
+	}
+
+	function renderEvolucao(historico) {
+		const tabela = document.getElementById('tabelaEvolucao').querySelector('tbody');
+		tabela.innerHTML = '';
+		historico.forEach(h => {
+			const tr = document.createElement('tr');
+			tr.innerHTML = `<td>${h.mes}</td><td>R$ ${h.patrimonio.toLocaleString('pt-BR', {maximumFractionDigits:2})}</td>`;
+			tabela.appendChild(tr);
+		});
+	}
+
+	// Estratégias pré-definidas
+	const estrategias = {
+		conservador: { taxa: 6, descricao: 'Renda fixa, baixo risco' },
+		moderado: { taxa: 9, descricao: 'Diversificado, risco moderado' },
+		agressivo: { taxa: 14, descricao: 'Ações, alto risco' }
+	};
+
+	// Manipulação de DOM
+	const form = document.getElementById('simForm');
+	const resultDiv = document.getElementById('result');
+	const compareBtn = document.getElementById('compareBtn');
+	const conservadorBtn = document.getElementById('conservadorBtn');
+	const moderadoBtn = document.getElementById('moderadoBtn');
+	const agressivoBtn = document.getElementById('agressivoBtn');
+
+	form.addEventListener('submit', function(e) {
+		e.preventDefault();
+		const aporte = parseFloat(document.getElementById('aporte').value);
+		const taxa = parseFloat(document.getElementById('taxa').value);
+		const tempo = parseInt(document.getElementById('tempo').value);
+		const resultado = simularInvestimento(aporte, taxa, tempo);
+		resultDiv.innerHTML = `Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b>`;
+		renderChart(resultado.historico);
+		renderEvolucao(resultado.historico);
+	});
+
+	compareBtn.addEventListener('click', function() {
+		const aporte1 = parseFloat(document.getElementById('aporte').value);
+		const taxa1 = parseFloat(document.getElementById('taxa').value);
+		const tempo1 = parseInt(document.getElementById('tempo').value);
+		const aporte2 = parseFloat(document.getElementById('aporte2').value);
+		const taxa2 = parseFloat(document.getElementById('taxa2').value);
+		const tempo2 = parseInt(document.getElementById('tempo2').value);
+		if (isNaN(aporte2) || isNaN(taxa2) || isNaN(tempo2)) {
+			alert('Preencha todos os campos do cenário 2.');
+			return;
 		}
+		const resultado = simularComparacao(aporte1, taxa1, tempo1, aporte2, taxa2, tempo2);
+		resultDiv.innerHTML = `Cenário 1: <b>R$ ${resultado.patrimonioFinal1.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b><br>Cenário 2: <b>R$ ${resultado.patrimonioFinal2.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b><br>Diferença: <b>R$ ${resultado.diferenca.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b>`;
+		renderChart(resultado.historico1, resultado.historico2);
+		renderEvolucao(resultado.historico1);
+	});
 
-		form.addEventListener('submit', function(e) {
-			e.preventDefault();
-			const idade = parseInt(document.getElementById('idade').value);
-			const salario = parseFloat(document.getElementById('salario').value);
-			const gastos = parseFloat(document.getElementById('gastos').value);
-			const investimento = parseFloat(document.getElementById('investimento').value);
-			salvarDadosLocal(idade, salario, gastos, investimento);
-			const resultado = calcularAposentadoria(idade, salario, gastos, investimento);
-			resultDiv.innerHTML = `Você poderá se aposentar em <b>${resultado.anos}</b> anos (idade <b>${resultado.idadeAposentadoria}</b>)<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:0})}</b>`;
-			renderChart(resultado.historico);
-		});
+	conservadorBtn.addEventListener('click', function() {
+		const aporte = parseFloat(document.getElementById('aporte').value);
+		const tempo = parseInt(document.getElementById('tempo').value);
+		const taxa = estrategias.conservador.taxa;
+		const resultado = simularInvestimento(aporte, taxa, tempo);
+		resultDiv.innerHTML = `Estratégia Conservadora (${estrategias.conservador.descricao}):<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b>`;
+		renderChart(resultado.historico);
+		renderEvolucao(resultado.historico);
+	});
 
-		compareBtn.addEventListener('click', function() {
-			const idade = parseInt(document.getElementById('idade').value);
-			const salario = parseFloat(document.getElementById('salario').value);
-			const gastos = parseFloat(document.getElementById('gastos').value);
-			const investimento = parseFloat(document.getElementById('investimento').value);
-			const investimento2 = parseFloat(document.getElementById('investimento2').value);
-			const gastos2 = parseFloat(document.getElementById('gastos2').value);
-			if (isNaN(investimento2) || isNaN(gastos2)) {
-				alert('Preencha os campos de comparação.');
-				return;
-			}
-			const resultado = calcularAposentadoria(idade, salario, gastos, investimento, investimento2, gastos2);
-			resultDiv.innerHTML = `Cenário 1: aposentadoria em <b>${resultado.anos}</b> anos (idade <b>${resultado.idadeAposentadoria}</b>)<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:0})}</b><br><br>Cenário 2: aposentadoria em <b>${resultado.anos2}</b> anos (idade <b>${resultado.idadeAposentadoria2}</b>)<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal2.toLocaleString('pt-BR', {maximumFractionDigits:0})}</b>`;
-			renderChart(resultado.historico, resultado.historico2);
-		});
+	moderadoBtn.addEventListener('click', function() {
+		const aporte = parseFloat(document.getElementById('aporte').value);
+		const tempo = parseInt(document.getElementById('tempo').value);
+		const taxa = estrategias.moderado.taxa;
+		const resultado = simularInvestimento(aporte, taxa, tempo);
+		resultDiv.innerHTML = `Estratégia Moderada (${estrategias.moderado.descricao}):<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b>`;
+		renderChart(resultado.historico);
+		renderEvolucao(resultado.historico);
+	});
 
-		window.onload = carregarDadosLocal;
-	</script>
+	agressivoBtn.addEventListener('click', function() {
+		const aporte = parseFloat(document.getElementById('aporte').value);
+		const tempo = parseInt(document.getElementById('tempo').value);
+		const taxa = estrategias.agressivo.taxa;
+		const resultado = simularInvestimento(aporte, taxa, tempo);
+		resultDiv.innerHTML = `Estratégia Agressiva (${estrategias.agressivo.descricao}):<br>Patrimônio final: <b>R$ ${resultado.patrimonioFinal.toLocaleString('pt-BR', {maximumFractionDigits:2})}</b>`;
+		renderChart(resultado.historico);
+		renderEvolucao(resultado.historico);
+	});
 	</script>
 </body>
 </html>
