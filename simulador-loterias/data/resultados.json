@@ -1,0 +1,1288 @@
+{
+  "lotofacil": {
+    "3811": {
+      "acumulado": false,
+      "data": "22/10/2026",
+      "dezenas": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18,
+        19,
+        23,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3811",
+      "numero": 3811,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "premio": 3832338.98
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 871,
+          "premio": 1160.69
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 25662,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 291344,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 1416005,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3812": {
+      "acumulado": false,
+      "data": "23/10/2026",
+      "dezenas": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        11,
+        13,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3812",
+      "numero": 3812,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "premio": 288143.9
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 337,
+          "premio": 1024.45
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 12075,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 111296,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 549397,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3813": {
+      "acumulado": true,
+      "data": "24/10/2026",
+      "dezenas": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        22,
+        23,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3813",
+      "numero": 3813,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 217,
+          "premio": 2278.37
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 7335,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 90378,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 487151,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3814": {
+      "acumulado": false,
+      "data": "26/10/2026",
+      "dezenas": [
+        1,
+        4,
+        6,
+        8,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3814",
+      "numero": 3814,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 2134251.7
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 389,
+          "premio": 2015.87
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 12337,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 134112,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 709025,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3815": {
+      "acumulado": false,
+      "data": "27/10/2026",
+      "dezenas": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        23,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3815",
+      "numero": 3815,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "premio": 432535.38
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 200,
+          "premio": 1943.41
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 7753,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 98892,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 517428,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3816": {
+      "acumulado": true,
+      "data": "28/10/2026",
+      "dezenas": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        22,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3816",
+      "numero": 3816,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "premio": 2243.02
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 7057,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 86189,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 439891,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3817": {
+      "acumulado": false,
+      "data": "29/10/2026",
+      "dezenas": [
+        2,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3817",
+      "numero": 3817,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 3995036.64
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 325,
+          "premio": 2242.58
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 11829,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 148288,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 776768,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3818": {
+      "acumulado": false,
+      "data": "30/10/2026",
+      "dezenas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3818",
+      "numero": 3818,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 881659.15
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "premio": 2622.18
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 6445,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 81717,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 448011,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3819": {
+      "acumulado": true,
+      "data": "01/11/2026",
+      "dezenas": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        22,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3819",
+      "numero": 3819,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "premio": 3019.41
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 4837,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 72073,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 461474,
+          "premio": 7.0
+        }
+      ]
+    },
+    "3820": {
+      "acumulado": false,
+      "data": "03/11/2026",
+      "dezenas": [
+        2,
+        3,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3820",
+      "numero": 3820,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 4787660.62
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 657,
+          "premio": 1915.08
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 24303,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 212279,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 1210186,
+          "premio": 7.0
+        }
+      ]
+    }
+  },
+  "megasena": {
+    "3071": {
+      "acumulado": true,
+      "data": "18/10/2026",
+      "dezenas": [
+        12,
+        22,
+        41,
+        45,
+        51,
+        52
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3071",
+      "numero": 3071,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "premio": 58806.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7381,
+          "premio": 1339.55
+        }
+      ]
+    },
+    "3072": {
+      "acumulado": true,
+      "data": "20/10/2026",
+      "dezenas": [
+        2,
+        6,
+        9,
+        16,
+        31,
+        40
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3072",
+      "numero": 3072,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "premio": 38295.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9261,
+          "premio": 954.26
+        }
+      ]
+    },
+    "3073": {
+      "acumulado": true,
+      "data": "22/10/2026",
+      "dezenas": [
+        4,
+        13,
+        23,
+        28,
+        41,
+        58
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3073",
+      "numero": 3073,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 203,
+          "premio": 23138.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13143,
+          "premio": 510.55
+        }
+      ]
+    },
+    "3074": {
+      "acumulado": true,
+      "data": "24/10/2026",
+      "dezenas": [
+        2,
+        3,
+        20,
+        25,
+        39,
+        57
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3074",
+      "numero": 3074,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "premio": 30318.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11643,
+          "premio": 651.0
+        }
+      ]
+    },
+    "3075": {
+      "acumulado": true,
+      "data": "26/10/2026",
+      "dezenas": [
+        7,
+        10,
+        14,
+        27,
+        36,
+        55
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3075",
+      "numero": 3075,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "premio": 19433.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11018,
+          "premio": 458.57
+        }
+      ]
+    },
+    "3076": {
+      "acumulado": true,
+      "data": "27/10/2026",
+      "dezenas": [
+        6,
+        30,
+        32,
+        38,
+        49,
+        57
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3076",
+      "numero": 3076,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "premio": 58086.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6491,
+          "premio": 869.3
+        }
+      ]
+    },
+    "3077": {
+      "acumulado": false,
+      "data": "28/10/2026",
+      "dezenas": [
+        2,
+        14,
+        18,
+        31,
+        35,
+        40
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3077",
+      "numero": 3077,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 324898791.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "premio": 32185.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7598,
+          "premio": 701.97
+        }
+      ]
+    },
+    "3078": {
+      "acumulado": true,
+      "data": "29/10/2026",
+      "dezenas": [
+        5,
+        7,
+        12,
+        29,
+        34,
+        36
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3078",
+      "numero": 3078,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "premio": 20770.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2333,
+          "premio": 394.27
+        }
+      ]
+    },
+    "3079": {
+      "acumulado": true,
+      "data": "30/10/2026",
+      "dezenas": [
+        5,
+        9,
+        16,
+        40,
+        41,
+        59
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3079",
+      "numero": 3079,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 12,
+          "premio": 50706.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1110,
+          "premio": 783.1
+        }
+      ]
+    },
+    "3080": {
+      "acumulado": true,
+      "data": "01/11/2026",
+      "dezenas": [
+        13,
+        17,
+        28,
+        29,
+        39,
+        58
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3080",
+      "numero": 3080,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "premio": 38878.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3133,
+          "premio": 514.1
+        }
+      ]
+    }
+  },
+  "quina": {
+    "7149": {
+      "acumulado": true,
+      "data": "22/10/2026",
+      "dezenas": [
+        12,
+        53,
+        54,
+        58,
+        75
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7149",
+      "numero": 7149,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "premio": 11652.25
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 6858,
+          "premio": 122.98
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 176083,
+          "premio": 4.78
+        }
+      ]
+    },
+    "7150": {
+      "acumulado": false,
+      "data": "23/10/2026",
+      "dezenas": [
+        8,
+        22,
+        23,
+        61,
+        67
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7150",
+      "numero": 7150,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 29288347.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "premio": 8949.31
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 7633,
+          "premio": 115.01
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 196683,
+          "premio": 4.46
+        }
+      ]
+    },
+    "7151": {
+      "acumulado": true,
+      "data": "24/10/2026",
+      "dezenas": [
+        19,
+        28,
+        57,
+        66,
+        76
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7151",
+      "numero": 7151,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "premio": 12738.34
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 2000,
+          "premio": 139.51
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 58222,
+          "premio": 4.79
+        }
+      ]
+    },
+    "7152": {
+      "acumulado": true,
+      "data": "26/10/2026",
+      "dezenas": [
+        18,
+        22,
+        24,
+        25,
+        52
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7152",
+      "numero": 7152,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "premio": 4321.22
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 3385,
+          "premio": 74.16
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 67604,
+          "premio": 3.71
+        }
+      ]
+    },
+    "7153": {
+      "acumulado": true,
+      "data": "27/10/2026",
+      "dezenas": [
+        18,
+        36,
+        53,
+        64,
+        67
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7153",
+      "numero": 7153,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "premio": 7964.32
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 2095,
+          "premio": 130.33
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 51516,
+          "premio": 5.3
+        }
+      ]
+    },
+    "7154": {
+      "acumulado": false,
+      "data": "28/10/2026",
+      "dezenas": [
+        6,
+        8,
+        41,
+        44,
+        45
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7154",
+      "numero": 7154,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 2645625.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "premio": 6603.36
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 2547,
+          "premio": 108.64
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 62775,
+          "premio": 4.4
+        }
+      ]
+    },
+    "7155": {
+      "acumulado": true,
+      "data": "29/10/2026",
+      "dezenas": [
+        14,
+        29,
+        33,
+        53,
+        72
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7155",
+      "numero": 7155,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "premio": 5962.98
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 3429,
+          "premio": 102.68
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 82414,
+          "premio": 4.27
+        }
+      ]
+    },
+    "7156": {
+      "acumulado": true,
+      "data": "30/10/2026",
+      "dezenas": [
+        12,
+        16,
+        59,
+        60,
+        71
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7156",
+      "numero": 7156,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "premio": 16822.85
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 3046,
+          "premio": 136.75
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 82696,
+          "premio": 5.03
+        }
+      ]
+    },
+    "7157": {
+      "acumulado": true,
+      "data": "01/11/2026",
+      "dezenas": [
+        9,
+        27,
+        58,
+        61,
+        78
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7157",
+      "numero": 7157,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "premio": 8217.06
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 3561,
+          "premio": 129.66
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 96212,
+          "premio": 4.79
+        }
+      ]
+    },
+    "7158": {
+      "acumulado": true,
+      "data": "03/11/2026",
+      "dezenas": [
+        23,
+        25,
+        44,
+        51,
+        68
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7158",
+      "numero": 7158,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "premio": 12230.59
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 3975,
+          "premio": 126.0
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 104167,
+          "premio": 4.8
+        }
+      ]
+    }
+  }
+}
