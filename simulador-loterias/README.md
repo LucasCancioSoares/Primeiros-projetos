@@ -48,3 +48,22 @@ python agenda.py
 O painel exige que o último concurso do banco esteja de acordo com a consulta online: se a Caixa informar concurso mais recente que o armazenado, a geração falha em vez de misturar informações de datas diferentes. A rotina de coleta pode funcionar e ainda assim a segunda consulta falhar: nesse caso o GitHub Actions indicará erro e não gravará um painel incompleto. O agendamento usa UTC e pode sofrer atrasos do GitHub.
 
 Não gerar dezenas futuras nem utilizar prêmios estimados como valores de retorno das simulações.
+
+## Painel integrado de resultados e finanças
+
+A interface Streamlit lê `data/painel.json` (último resultado, próximo concurso e prêmio estimado) e `data/resultados.json` (histórico e rateio por concurso). **Não usa estimativas de prêmio futuro como se fossem valores recebidos**.
+
+Instalação e execução local:
+
+```bash
+cd simulador-loterias
+python -m pip install -r requirements-dashboard.txt
+streamlit run dashboard.py
+```
+
+Para análise financeira existem dois modos:
+
+1. **Histórico observado:** avalia a mesma carteira em cada concurso guardado, com os pagamentos observados por faixa daquele sorteio e custo hipotético/constante informado manualmente; não equivale a lucro historicamente realizável sem preços vigentes à época.
+2. **Monte Carlo:** sorteios aleatórios futuros hipotéticos, mantendo fixos os valores de rateio do último concurso exclusivamente para cenário demonstrativo; **não são valores de prêmios futuros**.
+
+O painel não faz apostas, não recomenda dezenas, não prevê sorteios, nem foi publicado na internet como serviço público. Para acesso por navegador fora do computador é necessário implantar a aplicação Streamlit em serviço de hospedagem apropriado, considerando a privacidade do repositório e o acesso aos arquivos.
