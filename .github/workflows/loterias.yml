@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - feature/simulador-loterias-v1
+      - feature/loterias-painel-financeiro
     paths:
       - 'simulador-loterias/**'
       - '.github/workflows/loterias.yml'
