@@ -32,3 +32,19 @@ O arquivo `.github/workflows/loterias.yml` na raiz do repositório executa teste
 6. O projeto de notícias/notificações do ChatGPT é separado do workflow de ingestão.
 
 Fonte técnica: https://servicebus2.caixa.gov.br/portaldeloterias/api
+
+## Painel de resultados e próximos concursos
+
+O fluxo automático consulta os **resultados realizados** e, na mesma execução, o **próximo concurso informado pela Caixa** de Lotofácil, Quina e Mega-Sena. Os dois tipos de dados são mantidos separados em `data/painel.json`: `ultimo_resultado` (com dezenas e rateios) e `proximo_sorteio` (número, data e estimativa do prêmio). A estimativa não é premiação confirmada.
+
+Rodar manualmente após atualizar resultados:
+
+```bash
+cd simulador-loterias
+python lottery.py update --backfill 10
+python agenda.py
+```
+
+O painel exige que o último concurso do banco esteja de acordo com a consulta online: se a Caixa informar concurso mais recente que o armazenado, a geração falha em vez de misturar informações de datas diferentes. A rotina de coleta pode funcionar e ainda assim a segunda consulta falhar: nesse caso o GitHub Actions indicará erro e não gravará um painel incompleto. O agendamento usa UTC e pode sofrer atrasos do GitHub.
+
+Não gerar dezenas futuras nem utilizar prêmios estimados como valores de retorno das simulações.
