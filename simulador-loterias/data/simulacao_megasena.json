@@ -1,0 +1,35 @@
+{
+  "aviso": "Pesquisa sem apostas reais. Custos e faixas de prêmio são cenário simplificado baseado em referência anterior. Lucro médio calculado não é valor esperado real nem projeção de resultados futuros. Eventos raros podem não aparecer nas simulações.",
+  "cenario_monte_carlo": {
+    "apostas": 1,
+    "custo_por_concurso": 6.0,
+    "jogo": "megasena",
+    "lucro_maximo": 508.1,
+    "lucro_mediano": -6.0,
+    "lucro_medio": -5.7712,
+    "lucro_minimo": -6.0,
+    "observacao": "Premiações fixas são cenários hipotéticos; valores reais variam por concurso. Não se trata de previsão ou garantia de lucro.",
+    "percentil_05_lucro": -6.0,
+    "probabilidade_de_lucro": 0.000445,
+    "probabilidade_de_prejuizo": 0.999555,
+    "semente": 2026,
+    "simulacoes": 200000
+  },
+  "custo_necessario_para_realizar_apostas": 0,
+  "custo_por_aposta_referencia": 6.0,
+  "data_concurso_referencia": "01/11/2026",
+  "fonte_concurso_referencia": 3080,
+  "gerado_em_utc": "2026-11-04T21:54:36.845231+00:00",
+  "metodologia": "Uma aposta simples de seis dezenas, sorteios uniformes independentes.",
+  "premio_sena": "não modelado; prêmio futuro desconhecido",
+  "premios_hipoteticos_usados": {
+    "4": 514.1,
+    "5": 38878.66
+  },
+  "probabilidades_exatas_por_aposta": {
+    "quadra": 0.0004287523974379922,
+    "quina": 6.4717343009508255e-06,
+    "sena": 1.997448858318156e-08
+  },
+  "proximo_concurso_informado": 3081
+}
