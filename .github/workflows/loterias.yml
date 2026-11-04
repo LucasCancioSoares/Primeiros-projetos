@@ -6,6 +6,7 @@ on:
       - main
       - feature/simulador-loterias-v1
       - feature/loterias-painel-financeiro
+      - feature/mega-sena-simulacao-automatica
     paths:
       - 'simulador-loterias/**'
       - '.github/workflows/loterias.yml'
@@ -39,12 +40,16 @@ jobs:
         if: github.ref == 'refs/heads/main'
         working-directory: simulador-loterias
         run: python agenda.py
+      - name: Simular Mega-Sena e preparar relatorio
+        if: github.ref == 'refs/heads/main'
+        working-directory: simulador-loterias
+        run: python mega_report.py
       - name: Gravar dados historicos no repositorio
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add simulador-loterias/data/resultados.json simulador-loterias/data/painel.json
+          git add simulador-loterias/data/resultados.json simulador-loterias/data/painel.json simulador-loterias/data/simulacao_megasena.json
           if ! git diff --cached --quiet; then
             git commit -m "data: atualizar concursos das loterias"
             git push
