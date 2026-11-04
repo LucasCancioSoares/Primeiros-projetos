@@ -3,6 +3,7 @@ name: Atualizar resultados das loterias
 on:
   push:
     branches:
+      - main
       - feature/simulador-loterias-v1
     paths:
       - 'simulador-loterias/**'
