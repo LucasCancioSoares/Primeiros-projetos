@@ -659,6 +659,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3823": {
+      "acumulado": false,
+      "data": "06/11/2026",
+      "dezenas": [
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3823",
+      "numero": 3823,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 976316.42
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "premio": 2924.45
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 5639,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 81952,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 490644,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
@@ -1033,6 +1088,40 @@
           "faixa": 3,
           "ganhadores": 3571,
           "premio": 664.35
+        }
+      ]
+    },
+    "3082": {
+      "acumulado": true,
+      "data": "06/11/2026",
+      "dezenas": [
+        4,
+        16,
+        23,
+        24,
+        38,
+        44
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3082",
+      "numero": 3082,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "premio": 20116.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4527,
+          "premio": 514.19
         }
       ]
     }
@@ -1503,6 +1592,45 @@
           "faixa": 4,
           "ganhadores": 67788,
           "premio": 3.54
+        }
+      ]
+    },
+    "7161": {
+      "acumulado": true,
+      "data": "06/11/2026",
+      "dezenas": [
+        48,
+        53,
+        68,
+        71,
+        79
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7161",
+      "numero": 7161,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "premio": 15954.49
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 1670,
+          "premio": 172.87
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 45744,
+          "premio": 6.31
         }
       ]
     }
