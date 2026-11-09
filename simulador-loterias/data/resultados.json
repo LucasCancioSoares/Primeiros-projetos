@@ -714,6 +714,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3824": {
+      "acumulado": false,
+      "data": "08/11/2026",
+      "dezenas": [
+        1,
+        2,
+        3,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        22,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3824",
+      "numero": 3824,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 800258.57
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 168,
+          "premio": 1997.57
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 7085,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 96897,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 571711,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
@@ -1122,6 +1177,40 @@
           "faixa": 3,
           "ganhadores": 4527,
           "premio": 514.19
+        }
+      ]
+    },
+    "3083": {
+      "acumulado": false,
+      "data": "08/11/2026",
+      "dezenas": [
+        22,
+        25,
+        29,
+        37,
+        46,
+        54
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3083",
+      "numero": 3083,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 59526903.72
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "premio": 23220.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3117,
+          "premio": 649.17
         }
       ]
     }
@@ -1631,6 +1720,45 @@
           "faixa": 4,
           "ganhadores": 45744,
           "premio": 6.31
+        }
+      ]
+    },
+    "7162": {
+      "acumulado": true,
+      "data": "08/11/2026",
+      "dezenas": [
+        9,
+        29,
+        46,
+        57,
+        66
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7162",
+      "numero": 7162,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 16,
+          "premio": 21974.91
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 2584,
+          "premio": 129.58
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 72223,
+          "premio": 4.63
         }
       ]
     }
