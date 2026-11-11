@@ -824,6 +824,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3826": {
+      "acumulado": false,
+      "data": "10/11/2026",
+      "dezenas": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        9,
+        12,
+        13,
+        15,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3826",
+      "numero": 3826,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "premio": 408185.03
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 355,
+          "premio": 1033.24
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 11132,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 118233,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 575335,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
@@ -1266,6 +1321,40 @@
           "faixa": 3,
           "ganhadores": 3117,
           "premio": 649.17
+        }
+      ]
+    },
+    "3084": {
+      "acumulado": false,
+      "data": "10/11/2026",
+      "dezenas": [
+        6,
+        14,
+        22,
+        30,
+        31,
+        37
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3084",
+      "numero": 3084,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 3287949.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "premio": 28344.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2264,
+          "premio": 518.66
         }
       ]
     }
@@ -1853,6 +1942,45 @@
           "faixa": 4,
           "ganhadores": 54837,
           "premio": 6.04
+        }
+      ]
+    },
+    "7164": {
+      "acumulado": true,
+      "data": "10/11/2026",
+      "dezenas": [
+        26,
+        30,
+        50,
+        62,
+        65
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7164",
+      "numero": 7164,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "premio": 9968.84
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 2180,
+          "premio": 161.13
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 61224,
+          "premio": 5.73
         }
       ]
     }
