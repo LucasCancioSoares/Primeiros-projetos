@@ -4,9 +4,9 @@
     "apostas": 1,
     "custo_por_concurso": 6.0,
     "jogo": "megasena",
-    "lucro_maximo": 512.66,
+    "lucro_maximo": 692.81,
     "lucro_mediano": -6.0,
-    "lucro_medio": -5.7692,
+    "lucro_medio": -5.689,
     "lucro_minimo": -6.0,
     "observacao": "Premiações fixas são cenários hipotéticos; valores reais variam por concurso. Não se trata de previsão ou garantia de lucro.",
     "percentil_05_lucro": -6.0,
@@ -17,19 +17,19 @@
   },
   "custo_necessario_para_realizar_apostas": 0,
   "custo_por_aposta_referencia": 6.0,
-  "data_concurso_referencia": "10/11/2026",
-  "fonte_concurso_referencia": 3084,
-  "gerado_em_utc": "2026-11-12T09:48:39.776229+00:00",
+  "data_concurso_referencia": "12/11/2026",
+  "fonte_concurso_referencia": 3085,
+  "gerado_em_utc": "2026-11-13T09:29:40.309306+00:00",
   "metodologia": "Uma aposta simples de seis dezenas, sorteios uniformes independentes.",
   "premio_sena": "não modelado; prêmio futuro desconhecido",
   "premios_hipoteticos_usados": {
-    "4": 518.66,
-    "5": 28344.4
+    "4": 698.81,
+    "5": 37046.54
   },
   "probabilidades_exatas_por_aposta": {
     "quadra": 0.0004287523974379922,
     "quina": 6.4717343009508255e-06,
     "sena": 1.997448858318156e-08
   },
-  "proximo_concurso_informado": 3085
+  "proximo_concurso_informado": 3086
 }
