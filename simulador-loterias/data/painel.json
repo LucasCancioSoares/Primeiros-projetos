@@ -1,66 +1,66 @@
 {
-  "consultado_em_utc": "2026-11-13T09:29:39.164672+00:00",
+  "consultado_em_utc": "2026-11-14T08:57:10.072851+00:00",
   "modalidades": {
     "lotofacil": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil",
-      "historico_concursos": 18,
+      "historico_concursos": 19,
       "proximo_sorteio": {
-        "concurso": 3829,
-        "data": "13/11/2026",
+        "concurso": 3830,
+        "data": "15/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 2000000.0
+        "estimativa_premio": 6000000.0
       },
       "ultimo_resultado": {
         "acumulado": false,
-        "data": "12/11/2026",
+        "data": "13/11/2026",
         "dezenas": [
-          3,
-          5,
-          7,
-          8,
-          11,
+          1,
+          2,
+          4,
+          6,
+          9,
+          10,
           13,
-          14,
           15,
+          16,
           18,
           19,
           20,
-          21,
           22,
           23,
-          25
+          24
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3828",
-        "numero": 3828,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3829",
+        "numero": 3829,
         "rateio": [
           {
             "descricao": "15 acertos",
             "faixa": 1,
             "ganhadores": 1,
-            "premio": 3488041.77
+            "premio": 1642095.56
           },
           {
             "descricao": "14 acertos",
             "faixa": 2,
-            "ganhadores": 385,
-            "premio": 1583.91
+            "ganhadores": 280,
+            "premio": 1756.68
           },
           {
             "descricao": "13 acertos",
             "faixa": 3,
-            "ganhadores": 14614,
+            "ganhadores": 9274,
             "premio": 35.0
           },
           {
             "descricao": "12 acertos",
             "faixa": 4,
-            "ganhadores": 184061,
+            "ganhadores": 104513,
             "premio": 14.0
           },
           {
             "descricao": "11 acertos",
             "faixa": 5,
-            "ganhadores": 931777,
+            "ganhadores": 506042,
             "premio": 7.0
           }
         ]
@@ -112,25 +112,25 @@
     },
     "quina": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina",
-      "historico_concursos": 18,
+      "historico_concursos": 19,
       "proximo_sorteio": {
-        "concurso": 7167,
-        "data": "13/11/2026",
+        "concurso": 7168,
+        "data": "15/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 11000000.0
+        "estimativa_premio": 12200000.0
       },
       "ultimo_resultado": {
         "acumulado": true,
-        "data": "12/11/2026",
+        "data": "13/11/2026",
         "dezenas": [
-          19,
-          31,
-          61,
-          67,
+          5,
+          9,
+          25,
+          39,
           69
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7166",
-        "numero": 7166,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7167",
+        "numero": 7167,
         "rateio": [
           {
             "descricao": "5 acertos",
@@ -141,20 +141,20 @@
           {
             "descricao": "4 acertos",
             "faixa": 2,
-            "ganhadores": 24,
-            "premio": 18489.25
+            "ganhadores": 54,
+            "premio": 9177.18
           },
           {
             "descricao": "3 acertos",
             "faixa": 3,
-            "ganhadores": 2890,
-            "premio": 146.23
+            "ganhadores": 5069,
+            "premio": 93.1
           },
           {
             "descricao": "2 acertos",
             "faixa": 4,
-            "ganhadores": 79081,
-            "premio": 5.34
+            "ganhadores": 120944,
+            "premio": 3.9
           }
         ]
       }

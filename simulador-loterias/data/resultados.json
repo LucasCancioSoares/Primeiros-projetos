@@ -989,6 +989,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3829": {
+      "acumulado": false,
+      "data": "13/11/2026",
+      "dezenas": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        10,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3829",
+      "numero": 3829,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "premio": 1642095.56
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 280,
+          "premio": 1756.68
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 9274,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 104513,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 506042,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
@@ -2203,6 +2258,45 @@
           "faixa": 4,
           "ganhadores": 79081,
           "premio": 5.34
+        }
+      ]
+    },
+    "7167": {
+      "acumulado": true,
+      "data": "13/11/2026",
+      "dezenas": [
+        5,
+        9,
+        25,
+        39,
+        69
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7167",
+      "numero": 7167,
+      "rateio": [
+        {
+          "descricao": "5 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "premio": 9177.18
+        },
+        {
+          "descricao": "3 acertos",
+          "faixa": 3,
+          "ganhadores": 5069,
+          "premio": 93.1
+        },
+        {
+          "descricao": "2 acertos",
+          "faixa": 4,
+          "ganhadores": 120944,
+          "premio": 3.9
         }
       ]
     }
