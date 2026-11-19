@@ -1,66 +1,66 @@
 {
-  "consultado_em_utc": "2026-11-18T10:07:32.539548+00:00",
+  "consultado_em_utc": "2026-11-19T10:18:11.796308+00:00",
   "modalidades": {
     "lotofacil": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil",
-      "historico_concursos": 22,
+      "historico_concursos": 23,
       "proximo_sorteio": {
-        "concurso": 3833,
-        "data": "18/11/2026",
+        "concurso": 3834,
+        "data": "19/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 5000000.0
+        "estimativa_premio": 2000000.0
       },
       "ultimo_resultado": {
-        "acumulado": true,
-        "data": "17/11/2026",
+        "acumulado": false,
+        "data": "18/11/2026",
         "dezenas": [
-          1,
+          2,
           3,
-          5,
+          4,
           7,
-          10,
+          8,
           11,
-          12,
           13,
-          14,
+          15,
           16,
           17,
           18,
           19,
           20,
-          23
+          22,
+          24
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3832",
-        "numero": 3832,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3833",
+        "numero": 3833,
         "rateio": [
           {
             "descricao": "15 acertos",
             "faixa": 1,
-            "ganhadores": 0,
-            "premio": 0.0
+            "ganhadores": 1,
+            "premio": 4164686.22
           },
           {
             "descricao": "14 acertos",
             "faixa": 2,
-            "ganhadores": 163,
-            "premio": 1896.35
+            "ganhadores": 385,
+            "premio": 2093.27
           },
           {
             "descricao": "13 acertos",
             "faixa": 3,
-            "ganhadores": 6763,
+            "ganhadores": 13075,
             "premio": 35.0
           },
           {
             "descricao": "12 acertos",
             "faixa": 4,
-            "ganhadores": 89989,
+            "ganhadores": 145706,
             "premio": 14.0
           },
           {
             "descricao": "11 acertos",
             "faixa": 5,
-            "ganhadores": 500962,
+            "ganhadores": 785384,
             "premio": 7.0
           }
         ]
@@ -112,49 +112,49 @@
     },
     "quina": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina",
-      "historico_concursos": 22,
+      "historico_concursos": 23,
       "proximo_sorteio": {
-        "concurso": 7171,
-        "data": "18/11/2026",
+        "concurso": 7172,
+        "data": "19/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 600000.0
+        "estimativa_premio": 1100000.0
       },
       "ultimo_resultado": {
-        "acumulado": false,
-        "data": "17/11/2026",
+        "acumulado": true,
+        "data": "18/11/2026",
         "dezenas": [
-          3,
-          7,
-          11,
-          19,
-          53
+          13,
+          16,
+          25,
+          28,
+          57
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7170",
-        "numero": 7170,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7171",
+        "numero": 7171,
         "rateio": [
           {
             "descricao": "5 acertos",
             "faixa": 1,
-            "ganhadores": 1,
-            "premio": 14511338.5
+            "ganhadores": 0,
+            "premio": 0.0
           },
           {
             "descricao": "4 acertos",
             "faixa": 2,
-            "ganhadores": 228,
-            "premio": 2220.5
+            "ganhadores": 56,
+            "premio": 3850.86
           },
           {
             "descricao": "3 acertos",
             "faixa": 3,
-            "ganhadores": 10665,
-            "premio": 45.21
+            "ganhadores": 2857,
+            "premio": 71.88
           },
           {
             "descricao": "2 acertos",
             "faixa": 4,
-            "ganhadores": 164957,
-            "premio": 2.92
+            "ganhadores": 58621,
+            "premio": 3.5
           }
         ]
       }
