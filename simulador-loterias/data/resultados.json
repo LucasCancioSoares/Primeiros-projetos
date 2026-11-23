@@ -1319,6 +1319,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3835": {
+      "acumulado": false,
+      "data": "22/11/2026",
+      "dezenas": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3835",
+      "numero": 3835,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "premio": 969054.85
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "premio": 2161.58
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 7322,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 95850,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 541422,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
@@ -1931,6 +1986,40 @@
           "faixa": 3,
           "ganhadores": 2750,
           "premio": 730.43
+        }
+      ]
+    },
+    "3089": {
+      "acumulado": true,
+      "data": "22/11/2026",
+      "dezenas": [
+        17,
+        18,
+        27,
+        36,
+        58,
+        59
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3089",
+      "numero": 3089,
+      "rateio": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "premio": 51466.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2971,
+          "premio": 643.42
         }
       ]
     }
