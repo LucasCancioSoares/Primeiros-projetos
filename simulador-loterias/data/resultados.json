@@ -1374,6 +1374,61 @@
           "premio": 7.0
         }
       ]
+    },
+    "3836": {
+      "acumulado": true,
+      "data": "23/11/2026",
+      "dezenas": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3836",
+      "numero": 3836,
+      "rateio": [
+        {
+          "descricao": "15 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "premio": 0.0
+        },
+        {
+          "descricao": "14 acertos",
+          "faixa": 2,
+          "ganhadores": 218,
+          "premio": 1962.92
+        },
+        {
+          "descricao": "13 acertos",
+          "faixa": 3,
+          "ganhadores": 8957,
+          "premio": 35.0
+        },
+        {
+          "descricao": "12 acertos",
+          "faixa": 4,
+          "ganhadores": 101926,
+          "premio": 14.0
+        },
+        {
+          "descricao": "11 acertos",
+          "faixa": 5,
+          "ganhadores": 507002,
+          "premio": 7.0
+        }
+      ]
     }
   },
   "megasena": {
