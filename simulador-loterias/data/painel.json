@@ -1,66 +1,66 @@
 {
-  "consultado_em_utc": "2026-11-25T11:16:02.767599+00:00",
+  "consultado_em_utc": "2026-11-28T10:24:06.015671+00:00",
   "modalidades": {
     "lotofacil": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil",
-      "historico_concursos": 27,
+      "historico_concursos": 30,
       "proximo_sorteio": {
-        "concurso": 3838,
-        "data": "25/11/2026",
+        "concurso": 3841,
+        "data": "29/11/2026",
         "estimativa_nao_garantida": true,
         "estimativa_premio": 2000000.0
       },
       "ultimo_resultado": {
         "acumulado": false,
-        "data": "24/11/2026",
+        "data": "27/11/2026",
         "dezenas": [
-          3,
-          4,
+          1,
+          2,
           5,
+          6,
           7,
           8,
-          10,
-          11,
+          9,
+          12,
+          13,
           14,
-          16,
+          15,
           17,
-          20,
-          22,
+          18,
           23,
-          24,
           25
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3837",
-        "numero": 3837,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3840",
+        "numero": 3840,
         "rateio": [
           {
             "descricao": "15 acertos",
             "faixa": 1,
-            "ganhadores": 1,
-            "premio": 3755409.03
+            "ganhadores": 2,
+            "premio": 3753137.51
           },
           {
             "descricao": "14 acertos",
             "faixa": 2,
-            "ganhadores": 828,
-            "premio": 841.75
+            "ganhadores": 422,
+            "premio": 2259.22
           },
           {
             "descricao": "13 acertos",
             "faixa": 3,
-            "ganhadores": 14564,
+            "ganhadores": 15422,
             "premio": 35.0
           },
           {
             "descricao": "12 acertos",
             "faixa": 4,
-            "ganhadores": 158259,
+            "ganhadores": 191904,
             "premio": 14.0
           },
           {
             "descricao": "11 acertos",
             "faixa": 5,
-            "ganhadores": 804414,
+            "ganhadores": 1070114,
             "premio": 7.0
           }
         ]
@@ -68,26 +68,26 @@
     },
     "megasena": {
       "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena",
-      "historico_concursos": 20,
+      "historico_concursos": 21,
       "proximo_sorteio": {
-        "concurso": 3091,
-        "data": "26/11/2026",
+        "concurso": 3092,
+        "data": "29/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 75000000.0
+        "estimativa_premio": 82000000.0
       },
       "ultimo_resultado": {
         "acumulado": true,
-        "data": "24/11/2026",
+        "data": "26/11/2026",
         "dezenas": [
-          10,
-          14,
-          27,
+          4,
+          19,
+          22,
+          23,
           28,
-          47,
-          57
+          37
         ],
-        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3090",
-        "numero": 3090,
+        "fonte": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3091",
+        "numero": 3091,
         "rateio": [
           {
             "descricao": "6 acertos",
@@ -98,14 +98,14 @@
           {
             "descricao": "5 acertos",
             "faixa": 2,
-            "ganhadores": 41,
-            "premio": 38160.32
+            "ganhadores": 64,
+            "premio": 25521.49
           },
           {
             "descricao": "4 acertos",
             "faixa": 3,
-            "ganhadores": 3800,
-            "premio": 588.18
+            "ganhadores": 5321,
+            "premio": 438.52
           }
         ]
       }
@@ -117,7 +117,7 @@
         "concurso": 7173,
         "data": "29/11/2026",
         "estimativa_nao_garantida": true,
-        "estimativa_premio": 50000000.0
+        "estimativa_premio": 80000000.0
       },
       "ultimo_resultado": {
         "acumulado": true,
